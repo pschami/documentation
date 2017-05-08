@@ -3,7 +3,7 @@
 ## Description
 This repository contains the documentation files hosted on Read the Docs.
 ## Documentation
-The documentation is accessed through [dellemc-symphony.readthedocs.io](dellemc-symphony.readthedocs.io)
+The documentation is accessed through [dellemc-symphony.readthedocs.io](https://dellemc-symphony.readthedocs.io/en/latest/)
 ## Before you begin
 
 ## Contributing
