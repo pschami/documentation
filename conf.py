@@ -90,7 +90,7 @@ html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 # documentation.
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "Dell Project Symphony",
+    'navbar_title': "dellemc-symphony",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Documentation",
