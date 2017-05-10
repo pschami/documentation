@@ -7,8 +7,8 @@
    :height: 300
    :align: right
 
-Dell EMC Project Symphony
-============================================
+Dell Project Symphony
+==========================
 
 Dell Project Symphony is a Dell EMC initiative to develop embedded software-defined operations features for Dell EMC Converged Systems, such as Dell EMC VxRack FLEX. It eliminates routine manual system administration, enabling you to use the infrastructure to solve business problems.
 
