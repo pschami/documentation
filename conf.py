@@ -33,7 +33,6 @@ extensions = ['edit_on_github']
 
 edit_on_github_project = 'dellemc-symphony/documentation'
 edit_on_github_branch = 'master'
-edit_on_github_src_path = 'documentation/'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -47,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'dellemc-symphony'
+project = 'Dell Project Symphony'
 copyright = '2017 Dell Inc. or its subsidiaries. All Rights Reserved.'
 author = ' '
 # The version info for the project you're documenting, acts as replacement for
@@ -91,7 +90,7 @@ html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 # documentation.
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "dellemc-symphony",
+    'navbar_title': "Dell Project Symphony",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Documentation",
