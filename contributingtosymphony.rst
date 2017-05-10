@@ -7,7 +7,7 @@ Why contribute? Providing feedback allows others to further enhance your code. I
 
 Contributor agreement
 ---------------------
-All contributions are made under the `Developer Certificate of Origin (DCO) <https://developercertificate.org/>`_.
+All contributions are made under the code by Dell EMC Contributor Agreement  `Contributor Agreement < https://github.com/codedellemc/codedellemc.github.io/wiki/Contributor-Agreement/>`_.
 
 Submitting contributions
 ------------------------
