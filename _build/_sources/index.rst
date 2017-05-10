@@ -12,10 +12,11 @@ Dell EMC project-symphony
 
 
 The project is available `here
-<https://github.com/dellemc-symphony/>`_ on GitHub under the CC BY-NC-SA 4.0 license.
+<https://github.com/dellemc-symphony/>`_ on GitHub under the xxxxxxxx X.0 license (or compatible sublicenses for library
 dependencies).
 
-
+This Dell EMC project-symphony documentation is hosted `here
+<http://dellemcproject-symphony.readthedocs.io.>`_ at Read the Docs.
 
 .. toctree::
    :maxdepth: 1
