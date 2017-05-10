@@ -1,4 +1,6 @@
 ![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)
+[![Documentation Status](https://readthedocs.org/projects/dellemc-symphony/badge/?version=latest)](http://dellemc-symphony.readthedocs.io/en/latest/?badge=latest)
+
 # Documentation
 
 ## Description
