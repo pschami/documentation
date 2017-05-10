@@ -25,7 +25,7 @@ The system architecture consists of five key sections:
 +----------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 |Core Services                                 |Provides credentials for the element managers and components, as well as the configuration specifications  |
 |                                              |used to describe the components in a Converged System. Core services also include a registry of business   |
-|                                              |capabilities so additional PAQX can be deployed and consumed without restarting.                           |                        |
+|                                              |capabilities so additional PAQX can be deployed and consumed without restarting.                           |                  
 +----------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 |Core Services API Gateway                     |Used for REST-based communication implementing Zuul and Consul to act as a single entry point for all      |
 |                                              |clients. The API gateway handles requests by either:                                                       |
