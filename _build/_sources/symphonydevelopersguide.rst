@@ -1,0 +1,2 @@
+Symphony Developers Guide
+=========================
