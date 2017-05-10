@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Dell Project Symphony'
-copyright = '2017 Dell Inc. or its subsidiaries. All Rights Reserved.'
+copyright = '2017 Dell Inc. or its subsidiaries. All Rights Reserved'
 author = ' '
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
