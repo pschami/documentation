@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Contributing to Symphony &#8212; dellemc project-symphony 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootswatch-3.3.6/yeti/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Guidelines for contributing code" href="symphonydevelopmentguide.html" />
+    <link rel="prev" title="System Architecture" href="systemarchitecture.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+<link rel="stylesheet" href="C:/Users/dennec1/Desktop/Dell EMC Symphony/_static/theme/img/emccode-logo-mono-48x48.png">
+<div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top" style="background-color: #007DB8;">
+  <div class="container">
+    <div class="navbar-header" style="background-color: #007DB8;">
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+          <!--<img src="_static/Symphony-Icon-Color-200x200.jpg">-->
+        Project Symphony</a>
+      <span class="navbar-text navbar-version pull-left"><b></b></span>
+
+      </div>
+      <div class="collapse navbar-collapse nav-collapse" style="background-color: #007DB8;">
+        <ul class="nav navbar-nav" >
+          
+
+          
+            <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">
+    Documentation <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu globaltoc" style="background-color: #007DB8;"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc">
+    <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="symphonyoverview.html">Symphony Overview - <strong>PLACEHOLDER</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="systemarchitecture.html">System Architecture</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contributing to Symphony</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symphonydevelopmentguide.html">Guidelines for contributing code</a></li>
+</ul>
+
+  </ul>
+</li>
+            
+          
+
+          
+
+          
+
+          
+        </ul>
+
+        
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+
+        <ul class="nav navbar-nav navbar-right" style="background-color: #007DB8;">
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <li>
+    <a href="systemarchitecture.html" title="Previous Chapter: System Architecture">
+      <i class="fa fa-arrow-left"></i>
+      <span class="hidden-sm hidden-tablet">Previous</span>
+    </a>
+  </li>
+  <li>
+    <a href="symphonydevelopmentguide.html" title="Next Chapter: Guidelines for contributing code">
+      <span class="hidden-sm hidden-tablet">Next Page</span>
+      <i class="fa fa-arrow-right"></i>
+    </a>
+  </li>
+          <li>
+              <a href="https://github.com/dellemc-symphony/documentation">
+                  <i class="fa fa-github"></i>
+                  <span>GitHub</span>
+              </a>
+          </li>
+          <li>
+              <a href="http://codedellemc.com">
+                <img src ="C:/Users/dennec1/Desktop/Dell EMC Symphony/_static/theme/img/emccode-logo-mono-48x48.png" style="width:18px;height:18px;border:0;"></i>
+                <span>{code} by Dell EMC </span>
+              </a>
+          </li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <link rel="stylesheet" href="_static/theme/css/font-awesome-4.0.3.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme/css/emccode-font.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme/css/base.css" type="text/css" />
+
+  <script src="_static/theme/js/base.js"></script>
+
+  <div class="section" id="contributing-to-symphony">
+<h1>Contributing to Symphony<a class="headerlink" href="#contributing-to-symphony" title="Permalink to this headline">¶</a></h1>
+<p>Welcome to Project Symphony. While you can access our source code for a project, service, or application, we hope you’ll consider contributing back to the code base with improvements, new features, and fixes.</p>
+<p>Why contribute? Providing feedback allows others to further enhance your code. If others give back, you can take advantage of their contributions. We include contributed improvements in our automated test environment in subsequent releases. If you don&#8217;t give back your improvements, you&#8217;ll need to retest your changes every time you deploy a new version of Symphony.</p>
+<div class="section" id="submitting-contributions">
+<h2>Submitting contributions<a class="headerlink" href="#submitting-contributions" title="Permalink to this headline">¶</a></h2>
+<p>Project Symphony takes contributions through GitHub pull requests. To submit coding additions or changes for a repository, fork the repository and clone it locally. Then use a unique branch to make commits and send pull requests.</p>
+<p>Limit a pull request to a single issue. Make sure to provide a clear and complete description of the pull request.</p>
+<p>Run your changes against existing tests or create new tests to cover your implementation. Keep tests as simple as possible. At a minimum, make sure your changes don’t break the existing project. For more information about contributing changes to Symphony, see the <a class="reference internal" href="symphonydevelopmentguide.html#developmentguide-label"><span class="std std-ref">Guidelines for contributing code</span></a></p>
+<p>We will review your contributions and engage with you with any questions or if further changes are required. The core committers handle all merges.</p>
+<p>If you have questions about a request, feel free to email one of our core committers:</p>
+<div class="section" id="core-committer-team">
+<h3>Core committer team<a class="headerlink" href="#core-committer-team" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="mailto:Paul&#46;Mcgrath2&#37;&#52;&#48;dell&#46;com">Paul<span>&#46;</span>Mcgrath2<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:Desmond&#46;Collins&#37;&#52;&#48;dell&#46;com">Desmond<span>&#46;</span>Collins<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:Bryan&#46;Maden&#37;&#52;&#48;dell&#46;com">Bryan<span>&#46;</span>Maden<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:Manuel&#46;Murillo&#37;&#52;&#48;dell&#46;com">Manuel<span>&#46;</span>Murillo<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:Naveen&#46;Pannala&#37;&#52;&#48;dell&#46;com">Naveen<span>&#46;</span>Pannala<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:Josh&#46;Bonczkowski&#37;&#52;&#48;dell&#46;com">Josh<span>&#46;</span>Bonczkowski<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:Gem&#46;Immanuel&#37;&#52;&#48;dell&#46;com">Gem<span>&#46;</span>Immanuel<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:David&#46;Muldowney&#37;&#52;&#48;dell&#46;com">David<span>&#46;</span>Muldowney<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:David&#46;Russell2&#37;&#52;&#48;dell&#46;com">David<span>&#46;</span>Russell2<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:Yohann&#46;Duchenay&#37;&#52;&#48;dell&#46;com">Yohann<span>&#46;</span>Duchenay<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:Nicholas&#46;Hansen&#37;&#52;&#48;dell&#46;com">Nicholas<span>&#46;</span>Hansen<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:Nancy&#46;Macaskill&#37;&#52;&#48;dell&#46;com">Nancy<span>&#46;</span>Macaskill<span>&#64;</span>dell<span>&#46;</span>com</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="submitting-issues-and-bugs">
+<h2>Submitting issues and bugs<a class="headerlink" href="#submitting-issues-and-bugs" title="Permalink to this headline">¶</a></h2>
+<p>To raise issues, ask questions, or report bugs, use <code class="docutils literal"><span class="pre">https://github.com/dellemc-symphony/&lt;Repository_Name&gt;/issues/</span></code></p>
+<p>Before creating an issue, check if the issue already exists. If you have new information for an existing issue, update the previously opened issue.</p>
+<p>When you open a new issue, you will be prompted to fill in as much detail as possible:</p>
+<ul class="simple">
+<li>Description of the issue</li>
+<li>Steps to reproduce</li>
+<li>Actual results</li>
+<li>Expected results if it was fully functional</li>
+<li>Any additional information</li>
+</ul>
+</div>
+<div class="section" id="reporting-security-issues">
+<h2>Reporting security issues<a class="headerlink" href="#reporting-security-issues" title="Permalink to this headline">¶</a></h2>
+<p>If you discover a security vulnerability, report it in an email to <a class="reference external" href="mailto:symphony&#37;&#52;&#48;dell&#46;com">symphony<span>&#64;</span>dell<span>&#46;</span>com</a>. Provide as much detail as possible.</p>
+<p>You don’t need to submit an issue.</p>
+</div>
+<div class="section" id="submitting-design-proposals">
+<h2>Submitting design proposals<a class="headerlink" href="#submitting-design-proposals" title="Permalink to this headline">¶</a></h2>
+<p>Submit any significant feature and design proposals for discussion to the mailing list at <a class="reference external" href="mailto:dellemc-symphony&#37;&#52;&#48;googlegroups&#46;com">dellemc-symphony<span>&#64;</span>googlegroups<span>&#46;</span>com</a> or our <a class="reference external" href="https://groups.google.com/forum/dellemc-symphony/">Google Group</a>. We review design proposals to make sure architectural details are aligned. Feel free to help expand the code.</p>
+</div>
+<div class="section" id="coding-guidelines">
+<h2>Coding guidelines<a class="headerlink" href="#coding-guidelines" title="Permalink to this headline">¶</a></h2>
+<p>Use the same coding style as the rest of the codebase. In general, write clean code and supply meaningful and comprehensive code comments.</p>
+<p>For more detailed information about how we’ve set up our code, see our <span class="xref doc">Symphony Development Guide</span>.</p>
+</div>
+<div class="section" id="community-guidelines">
+<h2>Community guidelines<a class="headerlink" href="#community-guidelines" title="Permalink to this headline">¶</a></h2>
+<p>This project adheres to the <a class="reference external" href="https://github.com/codedellemc/community/blob/master/code-of-conduct.md">Code of Conduct</a> as detailed by {code} by Dell EMC community.</p>
+</div>
+<div class="section" id="communicating-with-other-users">
+<h2>Communicating with other users<a class="headerlink" href="#communicating-with-other-users" title="Permalink to this headline">¶</a></h2>
+<p>Our community channels are always online and we welcome you to join us.</p>
+<p>We have a #symphony Slack channel <a class="reference external" href="https://codecommunity.slack.com/messages/C44R49JGZ/whats_new/">here</a>. Request an invite at <a class="reference external" href="http://community.codedellemc.com/">http://community.codedellemc.com/</a></p>
+<p>You can also join us on Google Groups and start a discussion.</p>
+</div>
+</div>
+
+
+  <script type="text/javascript">
+    function fixSidebarHeight() {
+      $(window.sidebar).css('max-height', window.innerHeight * 0.8);
+    }
+    fixSidebarHeight();
+    window.addEventListener('resize', fixSidebarHeight);
+  </script>
+
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-69712167-2");
+      pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+  <div class="btn-group" role="group">
+    <a href="_sources/contributingtosymphony.rst.txt" class="btn btn-default" rel="nofollow">
+      Show Source
+    </a>
+      <a href="https://github.com/dellemc-symphony/documentation/blob/master/documentation/contributingtosymphony.rst" class="btn btn-default" rel="nofollow">
+        Show on GitHub
+      </a>
+      <a href="https://github.com/dellemc-symphony/documentation/edit/master/documentation/contributingtosymphony.rst" class="btn btn-default" rel="nofollow">
+        Edit on GitHub
+      </a>
+  </div>
+      
+    </p>
+    <p>
+        &copy; Copyright 2017, Dell EMC.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
