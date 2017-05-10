@@ -17,7 +17,7 @@ IT staff spends less time managing infrastructure as Project Symphony software-d
 Developers, including the Dell EMC customer and partner community, third-party developers, and Dell EMC engineering, can collaborate to quickly add new software-defined operations capabilities. They can then share these innovations with the user community to solve common IT challenges.
 
 The project is available `here
-<https://github.com/dellemc-symphony/>`_ on GitHub under the CC BY-NC-SA 4.0 license.
+<https://github.com/dellemc-symphony/>`_ on GitHub under the EPL 1.0 license.
 
 .. toctree::
    :maxdepth: 1
