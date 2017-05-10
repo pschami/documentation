@@ -29,7 +29,9 @@ The system architecture consists of five key sections:
 +----------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 |Core Services API Gateway                     |Used for REST-based communication implementing Zuul and Consul to act as a single entry point for all      |
 |                                              |clients. The API gateway handles requests by either:                                                       |
+|                                              |                                                                                                           |
 |                                              |*Proxying or routing to the appropriate service, or                                                        |
+|                                              |                                                                                                           |
 |                                              |*Orchestrating requests to the required services.                                                          |
 +----------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 
