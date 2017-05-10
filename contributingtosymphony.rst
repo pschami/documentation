@@ -7,7 +7,7 @@ Why contribute? Providing feedback allows others to further enhance your code. I
 
 Contributor agreement
 ---------------------
-All contributions are made under the code by Dell EMC `Contributor Agreement <https://github.com/codedellemc/codedellemc.github.io/wiki/Contributor-Agreement/>`_.
+All contributions are made under the {code} by Dell EMC `Contributor Agreement <https://github.com/codedellemc/codedellemc.github.io/wiki/Contributor-Agreement/>`_.
 
 Submitting contributions
 ------------------------
@@ -82,7 +82,7 @@ Coding guidelines
 
 Use the same coding style as the rest of the codebase. In general, write clean code and supply meaningful and comprehensive code comments.
 
-For more detailed information about how we’ve set up our code, see our :ref:`Development Guidelines`.
+For more detailed information about how we’ve set up our code, see our :ref:`developmentguide-label`.
 
 Community guidelines
 --------------------
