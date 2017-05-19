@@ -5,8 +5,21 @@
 
 ## Description
 This repository contains the documentation files hosted on Read the Docs.
+
 ## Documentation
 You can find additional documentation for Project Symphony at [dellemc-symphony.readthedocs.io][documentation].
+
+## Before you begin
+Verify that the following tools are installed:
+
+* Python
+* Python-Sphinx
+
+## Building
+Run the following command to build this project:
+```bash
+make clean html
+```
 
 ## Contributing
 Project Symphony is a collection of services and libraries housed at [GitHub][github].

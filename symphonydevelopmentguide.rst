@@ -83,7 +83,7 @@ Include a label for the build number: ``LABEL com.dell.cpsd.build_number:<build 
 Include a label for the code repository version: ``LABEL com.dell.cpsd.git_revision:<git repo version>``
 
 Deployment versioning (RPM)
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Deployment files are versioned to signify active development and released versions. To help with traceability, both versioning types include an additional value that is the continuous integration (CI) (for example, Jenkins) build number for the project. Development versions include an additional identifier that specifies the version is under development and should not be released to consumers.
 
