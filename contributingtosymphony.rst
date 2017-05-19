@@ -86,7 +86,7 @@ For more detailed information about how we’ve set up our code, see our :ref:`d
 
 Contributing to the documentation
 ---------------------------------
-To contribute to our documentation, clone the dellemc-symphony/documentation repository and submit commits and pull requests as is done for the other repositories. When we merge your pull requests, your changes are automatically published to our documentation site at https://dellemc-symphony.readthedocs.io/en/latest/.
+We welcome contributions to our documentation. To contribute, clone the dellemc-symphony/documentation repository and submit commits and pull requests as you would for any other repository. Your changes are automatically published to https://dellemc-symphony.readthedocs.io/en/latest/ when we merge your pull request.
 
 Community guidelines
 --------------------
