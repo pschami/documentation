@@ -1,4 +1,4 @@
-The following is the defined listing within CPSD that we do not include in our Source Code Repositories. 
+# The following is the defined listing within CPSD that we do not include in our Source Code Repositories. 
 # This list will be updated when new file types are identified that we do not want to contribute to the Version Control System.
 # Packaged Files and Binaries
 *.jar
@@ -21,7 +21,8 @@ target/
 # Java
 *.class
 
-# Build Packagaing
+# Build Packaging
+_build/
 packer_cache
 packer-vmware-iso
 # General Content
