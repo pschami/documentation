@@ -10,21 +10,29 @@ This repository contains the documentation files hosted on Read the Docs.
 You can find additional documentation for Project Symphony at [dellemc-symphony.readthedocs.io][documentation].
 
 ## Before you begin
-Verify that the following tools are installed:
+Verify the following tools are installed:
 
 * Python
 * Python-Sphinx
+* Sphinx bootstrap theme
 
 ## Building
-Run the following command to build this project:
+Clone these docs from GitHUB and open in a command prompt
 ```bash
-make clean html
+cd docs
+.\make.bat html
+```
+Open the docs in a browser
+```bash
+cd docs
+start .\_build\html\index.html
 ```
 
 ## Contributing
 Project Symphony is a collection of services and libraries housed at [GitHub][github].
 Contribute code and make submissions at the relevant GitHub repository level.
 See [our documentation][contributing] for details on how to contribute.
+
 ## Community
 Reach out to us on the Slack [#symphony][slack] channel. Request an invite to Slack at [{code} by Dell EMC][codecommunity].
 You can also join [Google Groups][googlegroups] and start a discussion.
